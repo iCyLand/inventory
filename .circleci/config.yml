@@ -12,7 +12,7 @@ jobs:
 
     steps:
       - checkout
-      - run: run_sonar-scanner
+      - run: run-sonar-scanner
 
       # run tests!
       #- run: phpunit
